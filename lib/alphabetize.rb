@@ -1,6 +1,7 @@
 def alphabetize(arr)
   esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by do |word|
+  arr.sort_by do |string|
+
     word.each_char do |letter|
 
     end
