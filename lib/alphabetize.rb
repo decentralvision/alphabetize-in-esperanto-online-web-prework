@@ -5,7 +5,7 @@ def alphabetize(arr)
     words.each do |word|
       score = 0
       word.each_char do |letter|
-        
+        esperanto_alphabet.rindex(letter)
       end
     end
     score
