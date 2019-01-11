@@ -3,6 +3,7 @@ def alphabetize(arr)
   arr.sort_by do |string|
     words = string.split(' ')
     words.each do |word|
+      score = 0
       word.each_char do |letter|
       end
     end
