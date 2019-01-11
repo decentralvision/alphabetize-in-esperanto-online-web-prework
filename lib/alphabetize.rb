@@ -1,7 +1,7 @@
 def alphabetize(arr)
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |word|
-    word.each do |letter|
+    word.each_char do |letter|
     puts letter
     end
   end
