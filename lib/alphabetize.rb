@@ -5,3 +5,5 @@ def alphabetize(arr)
     end
   end
 end
+
+example = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
