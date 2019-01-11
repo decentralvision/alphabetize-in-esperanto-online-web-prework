@@ -4,5 +4,4 @@ def alphabetize(arr)
     puts letter
     end
   end
-  end
 end
