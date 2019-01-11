@@ -1,5 +1,5 @@
 def alphabetize(arr)
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esperanto_alphabet= "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |word|
     word.each_char do |letter|
     puts letter
